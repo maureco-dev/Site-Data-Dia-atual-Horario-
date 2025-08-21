@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hora do Dia</title>
+
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <body onload="carregar()">
+    <header>
+      <h1>Data - Dia Atual - Horário</h1>
+    </header>
+
+    <section>
+      <div id="msg"></div>
+      <div id="msg_dia"></div>
+      <div id="msg_ano"></div>
+      <div id="foto">
+        <img id="imagem" src="fotomanha.png" alt="foto do dia" />
+      </div>
+      <div id="msg_bomdia"></div>
+      <div id="msg_boatarde"></div>
+      <div id="msg_boanoite"></div>
+    </section>
+
+    <footer>
+      <p>&copy; Maureco Enterprises</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
